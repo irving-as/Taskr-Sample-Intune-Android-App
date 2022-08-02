@@ -43,6 +43,8 @@ dependencies {
     implementation "com.google.android.material:material:1.4.0"
     implementation 'androidx.constraintlayout:constraintlayout:2.1.1'
 
+    implementation 'com.test.compositeproject:compositeproject'
+
     def lifecycle_version = '2.2.0'
     implementation "androidx.lifecycle:lifecycle-extensions:$lifecycle_version"
     implementation "androidx.lifecycle:lifecycle-viewmodel:$lifecycle_version"

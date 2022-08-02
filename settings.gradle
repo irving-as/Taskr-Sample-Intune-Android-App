@@ -4,3 +4,8 @@
  */
 
 include ':app', ':MAMSDK'
+includeBuild('composite') {
+    dependencySubstitution {
+        substitute module('com.test.compositeproject:compositeproject') using project(':')
+    }
+}
